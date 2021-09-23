@@ -1,0 +1,175 @@
+.title{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 69px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+
+  padding-top: 60px;
+}
+
+.input{
+  border: 2px solid #898989;
+  box-sizing: border-box;
+  border-radius: 42px;
+  width: 277px;
+  height: 61px;
+  background-color: transparent;
+  outline:none;
+
+  font-size: 18px;
+  line-height: 46px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #F1F1F1;
+  padding-left: 20px;
+
+  margin-right: 20px;
+}
+
+.input::placeholder{
+  font-size: 18px;
+  line-height: 46px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #F1F1F1;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+}
+
+.inputBar{
+  display: flex;
+  align-items: center;
+}
+
+.inputBar div .arrow{
+  display: none;
+}
+
+.arrow:hover{
+  cursor: pointer;
+}
+
+.info{
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+  color: #919191;
+
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.info span{
+  color: #F3F5F6;
+}
+
+.hr{
+  display: none;
+}
+
+@media (max-width: 756px){
+  hr{
+    margin: 95px 30px 45px 30px;
+    color: #F3F5F6;
+  }
+
+  .feed01{
+    font-size: 12px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  .feed02{
+    font-size: 12px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+
+  .title{
+    font-size: 34px;
+    line-height: 42px;
+    width: 200px;
+    margin-left: 32px;
+
+    padding-top: 60px;
+  }
+
+  .inputBar div .arrow{
+    display: block;
+  }
+
+  .inputBar div .input{
+    margin-bottom: 0;
+  }
+
+  .arrow{
+    margin-left: 15px;
+  }
+
+  .section .input{
+    width: 220px;
+  }
+
+  div .input{
+    margin-right: 10px;
+    width: 220px;
+  }
+
+  .input{
+    height: 40px;
+    padding-left: 12px;
+    font-size: 11.8242px;
+    line-height: 30px;
+
+    margin-bottom: 15px;
+  }
+
+  .input::placeholder{
+    font-size: 11.8242px;
+    line-height: 30px;
+  }
+
+  .section02  {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+
+  .inputBar .arrow  {
+    display: none;
+  }
+
+  .inputBar{
+    padding-left: 30px;
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .info{
+    font-size: 14px;
+    line-height: 16px;
+
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 32px;
+  }
+
+  .hr{
+    display: block;
+  }
+}
+
+@media (min-width: 756px) and (max-width: 1172px){
+  .title , .inputBar  , .info {
+    margin-left: 20px;
+  }
+}

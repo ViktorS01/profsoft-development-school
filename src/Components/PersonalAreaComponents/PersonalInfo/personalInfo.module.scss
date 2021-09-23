@@ -1,0 +1,110 @@
+.person {
+  background: #292929;
+  border-radius: 22.08px;
+
+  width: 276px;
+  height: 276px;
+  margin-top: 10px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.outButton:hover{
+  cursor: pointer;
+}
+
+.hiMan{
+  position: absolute;
+
+  top: 30px;
+  left: 37px;
+}
+
+.personalArea{
+  display: flex;
+  margin-bottom: 70px;
+  margin-top: 10px;
+}
+
+.personalArea h2{
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  width: 500px;
+
+  padding-top: 80px;
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.personalArea p{
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: -0.01em;
+
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+@media (max-width: 790px) and (min-width: 350px) {
+  .personalArea{
+    margin-left: 30px;
+    margin-top: 13px;
+    margin-bottom: 17px;
+  }
+
+  .info h2{
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    width: 200px;
+
+    padding-top: 13px;
+    padding-left: 10px;
+    margin-bottom: 13px;
+  }
+
+  .info p{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 9px;
+    letter-spacing: -0.01em;
+
+    padding-left: 10px;
+    margin-top: 0;
+  }
+
+  .person{
+    width: 109px;
+    height: 109px;
+    border-radius: 8.72px;
+  }
+
+  .hiMan{
+    width: 75.81px;
+    height: 110.56px;
+
+    top: 8px;
+    left: 13px;
+  }
+}
+
+@media (max-width: 350px) {
+  .personalArea{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .person{
+    margin: 0 auto;
+  }
+
+  .personalArea h2{
+    font-size: 22px;
+    line-height: 22px;
+    width: 300px;
+  }
+}

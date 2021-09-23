@@ -1,0 +1,256 @@
+.coursesTitle{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 69px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.coursesTitle span{
+  color: #FFE924;
+}
+
+.trainingInfo{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: -0.01em;
+  color: #898989;
+}
+
+.selectBar{
+  display: flex;
+  align-items: start;
+  margin-bottom: 60px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.activeSelectBlock{
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 42px;
+
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  justify-content: space-around;
+
+  background-color: #1c1c1c;
+}
+
+.additionalInformation{
+  background-color: #FFFFFF;
+  box-shadow:         0px 7px 5px 2px rgba(50, 50, 50, 0.75);
+  border-radius: 0px 30px 30px 30px;
+  width: 260px;
+  position: absolute;
+}
+
+.containerBlock{
+  position: relative;
+}
+
+.additionalInformation p{
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 40px;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #1C1C1C;
+  padding-left: 20px;
+}
+
+.additionalInformation p:hover{
+  cursor: pointer;
+}
+
+.rectangle{
+  background: #FFFFFF;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 30px;
+  height: 40px;
+  z-index: -1;
+}
+
+.selectBlock{
+  border: 2px solid #898989;
+  box-sizing: border-box;
+  border-radius: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 50px;
+}
+
+.selectInfo{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #F1F1F1;
+}
+
+.activeSelect{
+  transform: rotate(180deg);
+}
+
+.arrow{
+  margin-top: 15px;
+}
+
+.CardImage{
+  width: 571px;
+  height: 301px;
+  background-color: #1c1c1c;
+}
+
+@media (max-width: 1175px) and (min-width: 769px){
+  .coursesTitle{
+    padding-left: 30px;
+  }
+
+  .trainingInfo{
+    padding-left: 30px;
+  }
+
+  .selectBar{
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 380px){
+
+  .coursesTitle{
+    width: 150px;
+    padding-left: 30px;
+  }
+
+  .trainingInfo{
+    padding-left: 30px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+  }
+
+  .selectBar{
+    margin-left: 30px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .selectBar :first-child div{
+    z-index: 99999;
+  }
+
+  .selectBar :nth-of-type(2n){
+    z-index: 1;
+  }
+
+  .containerBlock{
+    margin-top: 20px;
+  }
+
+  .arrow{
+    margin-left: -20px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 379px){
+  .containerBlock{
+    margin-top: 20px;
+  }
+
+  .selectBlock{
+    margin-right: 0;
+  }
+
+  .arrow{
+    margin-left: 10px;
+    width: 27px;
+    height: 17px;
+    z-index: 1;
+  }
+
+  .selectBar{
+    margin-left: 30px;
+    margin-bottom: 138px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .selectBar :first-child .selectBlock{
+    width: 195px !important;
+    height: 40px;
+  }
+
+  .selectBar :first-child div{
+    width: 195px !important;
+    z-index: 99999;
+  }
+
+  .selectBar :first-child .activeSelectBlock{
+    width: 195px !important;
+    height: 40px;
+  }
+
+  .selectInfo{
+    font-size: 11.8242px;
+    line-height: 30px;
+  }
+
+  .selectBar :nth-of-type(2n) .selectBlock {
+    width: 141px !important;
+    height: 40px;
+  }
+
+  .selectBar :nth-of-type(2n) .activeSelectBlock {
+    width: 141px !important;
+    height: 40px;
+  }
+
+  .activeSelectBlock span{
+    top: 17px;
+  }
+
+  .selectBar :nth-of-type(2n){
+    width: 141px;
+    z-index: 1;
+  }
+
+  .selectBar :nth-of-type(2n) div{
+    width: 141px !important;
+  }
+
+  .coursesTitle{
+    padding-left: 30px;
+    width: 150px;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .trainingInfo{
+    padding-left: 30px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+  }
+}

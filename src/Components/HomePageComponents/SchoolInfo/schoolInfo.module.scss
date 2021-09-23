@@ -1,0 +1,226 @@
+.content {
+  padding-top: 50px;
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 55px;
+    line-height: 60px;
+    letter-spacing: -0.01em;
+    font-family: 'Golos DemiBold';
+    margin-bottom: 0;
+  }
+
+  &__cross{
+    position: absolute;
+    top: 36px;
+    right: -10px;
+  }
+
+  &__info {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: -0.01em;
+    color: #898989;
+    margin-top: 10px;
+    margin-bottom: 55px;
+  }
+
+  &__buttonCheck {
+    text-transform: uppercase;
+    color: #1C1C1C;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 46px;
+
+    background: #FFE924;
+    border-radius: 42px;
+    padding: 8px 28px;
+
+    margin-bottom: 115px;
+  }
+
+  &__buttonCheck:hover{
+    cursor: pointer;
+  }
+
+  &__whyBlock {
+    margin-top: 65px;
+
+    h2 {
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 34px;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+      margin-bottom: 18px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -0.01em;
+    }
+  }
+
+  &__blockSchoolInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 90px;
+
+    &__info, &__info__last{
+      display: flex;
+      flex-direction: row;
+      margin-top: 75px;
+      margin-right: 60px;
+
+      h2{
+        text-transform: uppercase;
+        font-size: 90px;
+        line-height: 34px;
+        letter-spacing: -0.01em;
+        margin: 0;
+        padding-right: 5px;
+      }
+
+      p{
+        font-family: 'Golos DemiBold';
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        margin: 0;
+        height: 55px;
+        width: 180px;
+        align-items: flex-end;
+        display: flex;
+      }
+
+      &__last{
+        margin-right: 0;
+        margin-left: -120px;
+      }
+    }
+  }
+}
+
+.hr{
+  margin: 0;
+  border: 1px solid #898989;
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 0 30px 0 30px;
+
+    &__cross{
+      display: none;
+    }
+
+    &__title {
+      margin-top: 0;
+      padding-top: 30px;
+      font-size: 34px;
+      line-height: 42px;
+    }
+
+    &__info {
+      font-size: 14px;
+      line-height: 16px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    &__buttonCheck {
+      margin-bottom: 50px;
+      padding: 4px 14px;
+      font-size: 12.0201px;
+      line-height: 30px;
+    }
+
+    &__whyBlock {
+      margin-top: 20px;
+      width: 100%;
+
+      h2 {
+        font-size: 22px;
+        line-height: 34px;
+      }
+
+      p {
+        font-size: 14px;
+        line-height: 16px;
+        width: 100%;
+      }
+    }
+
+    &__blockSchoolInfo{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-bottom: 40px;
+
+      &__info, &__info__last{
+        margin-top: 35px;
+
+        p{
+          font-size: 14px;
+          line-height: 21px;
+          height: 55px;
+          width: 85px;
+        }
+
+
+        &__last{
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1168px){
+  .content__blockSchoolInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .content__blockSchoolInfo__info__last{
+    margin-left: 0;
+  }
+
+  .content__whyBlock h2{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .content__whyBlock p{
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .content__blockSchoolInfo{
+    padding-left: 20px;
+  }
+
+  .content__title{
+    padding-left: 10px;
+  }
+
+  .content__info{
+    padding-left: 10px;
+  }
+
+  .content__buttonCheck{
+    margin-left: 10px;
+  }
+
+  .content__cross{
+    position: absolute;
+    top: 36px;
+    right: 10px;
+  }
+}

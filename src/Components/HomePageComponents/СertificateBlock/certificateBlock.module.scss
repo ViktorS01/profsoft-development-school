@@ -1,0 +1,103 @@
+.content h2 {
+  color: #1C1C1C;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  margin-top: 90px;
+  margin-bottom: 0;
+}
+
+.content p {
+  color: #1C1C1C;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+.inputBar .format {
+  width: 428px;
+  border: none;
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #1C1C1C;
+  border-radius: 42px;
+  margin-left: 25px;
+  outline:none;
+}
+
+.inputBar .format::placeholder {
+  color: #F3F5F6;
+}
+
+.inputBar {
+  border: 2px solid #1C1C1C;
+  border-radius: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 574px;
+  height: 61px;
+
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+
+.arrow {
+  margin-right: 25px;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.repeat:hover{
+  cursor: pointer;
+}
+
+.repeat {
+  margin-right: 25px;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 35px 30px 20px 30px;
+  }
+
+  .inputBar {
+    width: 85%;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .inputBar .format {
+    width: 70%;
+    height: 35px;
+  }
+
+  .content h2 {
+    margin-top: 0px;
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .content p {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+  .content {
+    padding: 35px 30px 20px 30px;
+  }
+
+  .inputBar .format {
+    width: 70%;
+  }
+}

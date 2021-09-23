@@ -1,0 +1,40 @@
+.tree{
+  font-family: "Roboto";
+  margin: 25px auto;
+}
+
+.treeSection{
+  width: 300px;
+  margin: 5px auto;
+}
+
+.department:hover{
+  cursor: pointer;
+}
+
+.department{
+  font-size: 18px;
+  line-height: 16px;
+  color: #EB564F;
+}
+
+.userName{
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.15px;
+  color: #444A52;
+
+  padding: 0;
+  margin: 0;
+}
+
+.userDep{
+  font-weight: 550;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #CACED2;
+
+  padding: 0;
+  margin: 0;
+}

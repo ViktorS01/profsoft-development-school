@@ -1,0 +1,446 @@
+.content h2 {
+  color: #1C1C1C;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  margin-top: 90px;
+  margin-bottom: 0;
+}
+
+.content p {
+  color: #1C1C1C;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+.inputBar .format {
+  width: 428px;
+  border: none;
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #1C1C1C;
+  border-radius: 42px;
+  margin-left: 25px;
+  outline:none;
+}
+
+.inputBar .format::placeholder {
+  color: #F3F5F6;
+}
+
+.inArrowGrey{
+  path {
+    fill: #ede9ff;
+  }
+}
+
+.inArrowBlack{
+  path {
+    fill: black;
+  }
+}
+
+.inputBar {
+  border: 2px solid #1C1C1C;
+  border-radius: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 574px;
+  height: 61px;
+
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+
+.arrow {
+  margin-right: 25px;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.repeat:hover{
+  cursor: pointer;
+}
+
+.repeat {
+  margin-right: 25px;
+}
+
+.greyLightText{
+  color: #898989;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+.blackText{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.01em;
+  color: #1C1C1C;
+  margin: 0;
+}
+
+.openBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 35px;
+
+  &__info {
+    width: 280px;
+
+    &__certificateTitle {
+      width: 100%;
+      margin-bottom: 100px;
+
+      &__name {
+        margin-top: 22px;
+        width: 200px;
+      }
+    }
+
+    &__certificateInfo {
+      width: 100%;
+      margin-bottom: 22px;
+    }
+
+    &__certificatePeriod {
+      width: 100%;
+      margin-bottom: 22px;
+    }
+
+    &__certificateLearn {
+      width: 100%;
+    }
+  }
+
+  &__card {
+    background-image: url(../../../../assets/profsoft.jpg);
+    background-repeat: no-repeat;
+    background-size: 135%;
+    background-position: left 55px top -170px;
+    width: 868px;
+    height: 464px;
+    border-radius: 12px;
+    position: relative;
+
+    &__blackSquare {
+      width: 578px;
+      height: 464px;
+      left: 0px;
+      top: 0px;
+      position: absolute;
+      background: #292929;
+      border-radius: 18px;
+
+      &__men {
+        right: -260px;
+        bottom: 0px;
+        position: absolute;
+      }
+
+      &__blockInfo {
+        margin-top: 73px;
+        margin-left: 70px;
+
+        &__logo {
+          height: 15px;
+          margin-left: -30px;
+        }
+
+        &__certificate {
+          margin-top: 80px;
+          font-family: 'SF Pro Text';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 11px;
+          letter-spacing: -0.01em;
+          color: #898989;
+        }
+
+        &__name {
+          margin-top: 10px;
+          font-family: 'SF Pro Text';
+          font-style: normal;
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 22px;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+          color: #FFFFFF;
+          padding-bottom: 0;
+          margin-bottom: 0;
+        }
+
+        &__period {
+          font-family: 'SF Pro Text';
+          font-style: normal;
+          font-weight: 100;
+          font-size: 11px;
+          line-height: 15px;
+          letter-spacing: 0.035em;
+          color: #FFE924;
+          margin-top: 32px;
+        }
+
+        &__button {
+          margin-right: 10px;
+          padding: 3px 14px;
+          border: 1px solid #FFE924;
+          box-sizing: border-box;
+          border-radius: 42px;
+          background-color: transparent;
+          font-weight: normal;
+          font-size: 11px;
+          letter-spacing: -0.01em;
+          color: #FFE924;
+        }
+
+        &__director {
+          font-style: normal;
+          font-weight: 300;
+          font-size: 11px;
+          line-height: 15px;
+          letter-spacing: -0.01em;
+          color: #898989;
+          margin-top: 50px;
+        }
+
+        &__signature {
+          position: absolute;
+          bottom: 30px;
+          left: 210px;
+        }
+      }
+    }
+  }
+}
+
+.link {
+  text-align: right;
+  font-weight: normal;
+  font-size: 18px;
+  text-decoration-line: underline;
+  color: #1C1C1C;
+  margin-bottom: 70px;
+}
+
+@media (max-width: 1200px) {
+  .greyLightText{
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .blackText{
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .openBlock {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px 0 30px;
+
+    &__info {
+      width: 100%;
+
+      &__certificateTitle {
+        width: 100%;
+        margin-bottom: 20px;
+
+        &__name {
+          margin-top: 22px;
+          width: 170px;
+        }
+      }
+
+      &__certificateInfo {
+        width: 100%;
+        margin-bottom: 18px;
+      }
+
+      &__certificatePeriod {
+        width: 100%;
+        margin-bottom: 5px;
+      }
+
+      &__certificateLearn {
+        width: 100%;
+      }
+    }
+
+    &__card {
+      background-image: url(../../../../assets/profsoft.jpg);
+      background-repeat: no-repeat;
+      background-size: 135%;
+      background-position: left 20px top -60px;
+      width: 314px;
+      height: 167px;
+      border-radius: 4.34101px;
+      position: relative;
+      margin-top: 20px;
+
+      &__blackSquare {
+        width: 209px;
+        height: 167px;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        background: #292929;
+        border-radius: 6.51152px;
+
+
+        &__men {
+          right: -93px;
+          bottom: 0px;
+          position: absolute;
+          width: 155px;
+          height: 159px;
+        }
+
+        &__blockInfo {
+          margin-top: 15px;
+          margin-left: 25px;
+
+          &__logo {
+            height: 5.5px;
+            margin-left: -92px;
+          }
+
+          &__certificate {
+            margin-top: 25px;
+            font-family: 'SF Pro Text';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 3.97926px;
+            line-height: 5px;
+            letter-spacing: -0.01em;
+            color: #898989;
+          }
+
+          &__name {
+            margin-top: 5px;
+            font-size: 5.78802px;
+            line-height: 8px;
+            padding-bottom: 0;
+            margin-bottom: 0;
+          }
+
+          &__period {
+            font-size: 3.97926px;
+            line-height: 5px;
+            margin-top: 10px;
+            margin-bottom: -5px;
+          }
+
+          &__button {
+            margin-right: 3px;
+            padding: 1px 5px;
+            border: 0.361751px solid #FFE924;
+            box-sizing: border-box;
+            border-radius: 15.1935px;
+            font-size: 3.97926px;
+          }
+
+          &__director {
+            margin-top: 20px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 3.97926px;
+            line-height: 5px;
+            letter-spacing: -0.01em;
+            color: #898989;
+          }
+
+          &__signature {
+            position: absolute;
+            bottom: 10px;
+            left: 75px;
+            width: 34px;
+            height: 24.96px;
+          }
+        }
+      }
+    }
+  }
+
+  .link {
+    text-align: right;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 0 35px;
+    text-decoration-line: underline;
+    color: #1C1C1C;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 35px 30px 20px 30px;
+  }
+
+  .inputBar {
+    width: 85%;
+    height: 35px;
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+
+  .inputBar .format {
+    width: 70%;
+    height: 30px;
+  }
+
+  .inputBar .format::placeholder, .inputBar .format {
+    font-size: 15px;
+  }
+  .inputBar .arrow .inArrowGrey {
+    width: 25px;
+    margin-right: 0;
+  }
+
+  .feed{
+    color: black;
+  }
+
+  .inputBar .arrow {
+    width: 25px;
+    margin-right: 20px;
+  }
+
+  .content h2 {
+    margin-top: 0px;
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .content p {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+  .content {
+    padding: 35px 30px 20px 30px;
+  }
+
+  .inputBar .format {
+    width: 70%;
+  }
+}

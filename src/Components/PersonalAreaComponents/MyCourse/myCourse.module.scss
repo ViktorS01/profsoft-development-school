@@ -1,0 +1,28 @@
+.myCourse{
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 34px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #1C1C1C;
+
+  margin-top: 65px;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+  .myCourse{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+
+    font-size: 22px;
+    line-height: 34px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+  .myCourse{
+    padding-left: 30px;
+  }
+}

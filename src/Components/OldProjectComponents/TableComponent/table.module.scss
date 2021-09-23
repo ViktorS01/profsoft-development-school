@@ -1,0 +1,124 @@
+//.section{
+//  margin: 0 auto;
+//  max-width: 1181px;
+//  width: 100%;
+//}
+.table {
+  width: 100%;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  table-layout: fixed;
+  vertical-align: top;
+}
+.thead {
+  background: #F3F5F6;
+}
+//.th {
+//  padding-left: 19px;
+//  text-align: start;
+//  font-style: normal;
+//  font-weight: 550;
+//  font-size: 18px;
+//  line-height: 18px;
+//
+//  color: #444A52;
+//}
+td {
+  height: 56px;
+  padding-left: 19px;
+  border-bottom: 1px solid #E0E7E8;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+
+  color: #444A52;
+}
+
+.buttonUser{
+  width: 150px;
+}
+
+//.blockButton p{
+//  font-style: normal;
+//  font-weight: 550;
+//  font-size: 14px;
+//  line-height: 14px;
+//  text-align: center;
+//
+//  color: #FFFFFF;
+//}
+//.blockButton:hover {
+//  background: #C8524D;
+//}
+//.blockButton {
+//  background: #EB564F;
+//  width: 100%;
+//  height: 38px;
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//  cursor: pointer;
+//}
+//.unblockButton p {
+//  font-style: normal;
+//  font-weight: 550;
+//  font-size: 14px;
+//  line-height: 14px;
+//  text-align: center;
+//
+//  color: #EB564F;
+//}
+//.unblockButton {
+//  background: #FFFFFF;
+//  border: 1px solid #EB564F;
+//  width: 100%;
+//  height: 38px;
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//  cursor: pointer;
+//}
+//.unblockButton:hover p{
+//  color: #FFFFFF;
+//}
+//.unblockButton:hover {
+//  background: #C8524D;
+//}
+
+//.inputs input{
+//  margin-bottom: 25px;
+//}
+//.input::placeholder {
+//  font-style: normal;
+//  font-weight: normal;
+//  font-size: 16px;
+//  line-height: 16px;
+//
+//  color: #CACED2;
+//}
+//.input {
+//  outline: none;
+//  border: 1px solid #E0E7E8;
+//  height: 50px;
+//  padding-left: 20px;
+//  font-style: normal;
+//  font-weight: normal;
+//  font-size: 16px;
+//  line-height: 16px;
+//
+//  color: #444A52;
+//}
+//.inputs {
+//  margin-top: 36px;
+//  display: flex;
+//  flex-direction: column;
+//}
+
+.inputsBar{
+  margin-top: 20px;
+  background-color: #F3F5F6;
+  padding: 10px 10px;
+  margin-bottom: 100px;
+}

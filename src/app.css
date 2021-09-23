@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Golos Medium';
+    src: url('./fonts/GolosText-Medium.eot');
+    src: url('./fonts/GolosText-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/GolosText-Medium.woff') format('woff'),
+    url('./fonts/GolosText-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Golos DemiBold';
+    src: url('./fonts/GolosText-DemiBold.eot');
+    src: url('./fonts/GolosText-DemiBold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/GolosText-DemiBold.woff') format('woff'),
+    url('./fonts/GolosText-DemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('./fonts/SFProDisplay-Medium.eot');
+    src: url('./fonts/SFProDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/SFProDisplay-Medium.woff') format('woff'),
+    url('./fonts/SFProDisplay-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Golos Medium';
+}
+* {
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
